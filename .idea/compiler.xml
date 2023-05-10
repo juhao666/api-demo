@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="juhao666-orders" />
+        <module name="juhao666-spring-boot-monitor" />
+        <module name="juhao666-products" />
+        <module name="users" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="juhao666-users" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="juhao666-orders" options="-parameters" />
+      <module name="juhao666-products" options="-parameters" />
+      <module name="juhao666-spring-boot-monitor" options="-parameters" />
+      <module name="juhao666-users" options="-parameters" />
+      <module name="users" options="-parameters" />
+    </option>
+  </component>
+</project>
