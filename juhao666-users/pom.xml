@@ -12,7 +12,7 @@
     </parent>
 
     <groupId>com.juhao666</groupId>
-    <artifactId>users</artifactId>
+    <artifactId>juhao666-users</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>

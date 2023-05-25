@@ -15,6 +15,11 @@ public class LoginController {
         log.info("this is /users/login api info...");
         log.debug("this is /users/login api debug...");
         log.error("this is /users/login api error...");
+        try{
+            int i = 1/0;
+        }catch(Exception e){
+            log.error("an system error!!!", e);
+        }
         return "THIS_IS_LOGIN_ENDPOINTS";
     }
 }
